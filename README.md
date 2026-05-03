@@ -78,3 +78,7 @@ npm start
 ```
 
 Vercel veya benzeri platformlarda dağıtabilirsiniz.
+
+RSS Linklerimiz: https://news.google.com/rss/search?q=)"new+factory"+OR+"new+manufacturing+plant"+europe&hl=en-US&gl=US&ceid=US:en   
+https://news.google.com/rss/search?q=)"factory+relocation"+OR+"new+plant"+"Siemens"+europe&hl=en-US&gl=US&ceid=US:en
+https://news.google.com/rss/search?q=](https://news.google.com/rss/search?q=)"battery+plant"+closure+OR+expansion+"Germany"&hl=en-US&gl=US&ceid=US:en
