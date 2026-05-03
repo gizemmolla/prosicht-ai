@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Global Industrial &amp; Manufacturing News (Mock Feed)</title>
+    <link>http://localhost:3000</link>
+    <description>Simulated RSS feed covering all event types for testing PRO SICHT AI.</description>
+    <language>en-us</language>
+    <pubDate>Sun, 03 May 2026 12:00:00 GMT</pubDate>
+    
+    <!-- 1. RELOCATION -->
+    <item>
+      <title>Bosch to relocate steering column production from Germany to Hungary</title>
+      <link>http://example.com/bosch-relocation</link>
+      <description>Automotive supplier Bosch announced it is shifting its steering column production operations from its Stuttgart facility to a new site in Miskolc, Hungary, within the next 6 months to reduce operational costs.</description>
+      <pubDate>Sun, 03 May 2026 10:00:00 GMT</pubDate>
+      <guid>mock-1-relocation</guid>
+    </item>
+
+    <!-- 2. CLOSURE -->
+    <item>
+      <title>Ford shuts down historic Saarlouis plant, lays off 3,000 workers</title>
+      <link>http://example.com/ford-closure</link>
+      <description>Ford Motor Company has officially confirmed the bankruptcy and closing of its vehicle assembly facility in Saarlouis, Germany. Production will halt entirely by the end of the year.</description>
+      <pubDate>Sat, 02 May 2026 09:30:00 GMT</pubDate>
+      <guid>mock-2-closure</guid>
+    </item>
+
+    <!-- 3. EXPANSION -->
+    <item>
+      <title>TSMC announces $2 Billion capacity increase at Arizona fab</title>
+      <link>http://example.com/tsmc-expansion</link>
+      <description>Semiconductor giant TSMC is scaling up operations at its Phoenix, Arizona plant. The company plans to invest an additional $2 billion to expand the facility and add a new 3nm chip production line.</description>
+      <pubDate>Fri, 01 May 2026 14:15:00 GMT</pubDate>
+      <guid>mock-3-expansion</guid>
+    </item>
+
+    <!-- 4. NEW PLANT -->
+    <item>
+      <title>Tesla breaks ground on greenfield Gigafactory in Mexico</title>
+      <link>http://example.com/tesla-new-plant</link>
+      <description>Tesla held a groundbreaking ceremony today for its brand new facility in Nuevo León, Mexico. This greenfield project will be the company's largest electric vehicle manufacturing hub in Latin America.</description>
+      <pubDate>Thu, 30 Apr 2026 11:00:00 GMT</pubDate>
+      <guid>mock-4-new-plant</guid>
+    </item>
+
+    <!-- 5. TENDER -->
+    <item>
+      <title>French Ministry of Defense issues tender for military drone procurement</title>
+      <link>http://example.com/french-tender</link>
+      <description>The French government has released a new public bidding contract (tender offer) seeking suppliers for 500 tactical surveillance drones. Contract award is expected in Q3 2026.</description>
+      <pubDate>Wed, 29 Apr 2026 08:45:00 GMT</pubDate>
+      <guid>mock-5-tender</guid>
+    </item>
+
+    <!-- 6. OTHER -->
+    <item>
+      <title>Siemens CEO Roland Busch extends contract until 2030</title>
+      <link>http://example.com/siemens-other</link>
+      <description>Siemens AG supervisory board has agreed to extend the contract of CEO Roland Busch for another five years. The company reported steady quarterly earnings despite market volatility.</description>
+      <pubDate>Tue, 28 Apr 2026 16:20:00 GMT</pubDate>
+      <guid>mock-6-other</guid>
+    </item>
+
+  </channel>
+</rss>

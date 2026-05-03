@@ -36,8 +36,8 @@ export async function syncAllSources() {
           item.confidence = confidence;
           reprocessedCount++;
           
-          // Add delay to prevent rate limit (4 seconds)
-          await delay(4000);
+          // Add delay to prevent rate limit (8 seconds -> max ~7.5 RPM)
+          await delay(8000);
         }
       } catch (err) {
         console.error("Reprocessing failed for item:", err);
@@ -62,8 +62,8 @@ export async function syncAllSources() {
         let aiResult = null;
         if (process.env.GEMINI_API_KEY) {
           aiResult = await analyzeNewsWithAI(articleText);
-          // Add delay to prevent rate limit (4 seconds)
-          await delay(4000);
+          // Add delay to prevent rate limit (8 seconds -> max ~7.5 RPM)
+          await delay(8000);
         }
 
         const newsItem: NewsItem = {

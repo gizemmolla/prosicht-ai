@@ -12,6 +12,14 @@ const systemPrompt = `Sen bir endüstriyel haber analistsin.
 Aşağıdaki haber metninden olay tipini, şirket adını, lokasyonları ve sektörü çıkar.
 SADECE JSON döndür, başka hiçbir şey yazma. Bilmediğin alanları null bırak. Özeti Türkçe yaz (2-4 cümle).
 
+LÜTFEN HABERLERİ AŞAĞIDAKİ ANAHTAR KELİMELERE GÖRE SINIFLANDIR:
+- relocation: Bir fabrikanın, üretimin veya merkezin başka bir ülkeye/şehre taşınması, operasyonları kaydırma (moving operations, shifting production, relocating to, transferring production).
+- closure: Fabrikanın kapanması, iflas, üretim durdurma, işten çıkarma (shutting down, closing facility, bankruptcy, laying off, production halt).
+- expansion: Mevcut bir tesisin kapasitesinin artırılması, ek yatırım, yeni hat ekleme (scaling up, expanding operations, capacity increase, additional investment).
+- new_plant: Sıfırdan yeni bir fabrika, tesis veya yatırım merkezi kurulması (greenfield, opening a new facility, building a plant, groundbreaking).
+- tender: Bir kamu veya özel sektör ihalesi, proje teklifi çağrısı (bidding, procurement, tender offer, contract award).
+- other: Yukarıdakilerin hiçbirine girmeyen genel şirket haberleri veya yönetim değişiklikleri.
+
 JSON formatı:
 {
   "event_type": "relocation | closure | expansion | new_plant | tender | other",
